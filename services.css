@@ -1,0 +1,383 @@
+
+*{
+    margin: 0px;
+}
+
+
+/* Nav Bar */
+
+.navbar{
+    /* background-color: aqua; */
+    font-family: 'Times New Roman';
+    padding: 30px 70px;
+}
+
+.navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+    background-color: transparent !important;
+}
+
+.navlinks{
+    display: flex;
+    /* background-color: red; */
+    width: 250px;
+    justify-content: space-between;
+}
+
+.navlinks a{
+    font-family: calibri;
+    font-size: 18px;
+    color: rgb(78, 77, 77) !important;
+}
+
+.navlinks a:hover{
+    color: red !important;
+}
+
+.navbar-inner li{
+    list-style-type: none;
+}
+
+.navbar-inner a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.get-in-touch{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.get-in-touch i{
+    padding: 5px 0px;
+}
+
+.no{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: 2px;
+    color: rgb(69, 67, 67) !important;
+}
+
+.gin-btn{
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 6px;
+    border: rgb(207, 68, 68) 2px solid;
+    border-radius: 3px;
+    padding: 10px 25px;
+    color: rgb(210, 71, 71) !important;
+    transition: all .2s 0s linear;
+}
+
+.gin-btn:hover{
+    background-color: rgb(212, 71, 71);
+    color: white !important;
+    box-shadow: 3px 3px 5px rgb(92, 90, 90);
+    transform: translateY(3px);
+}
+
+
+/* our services */
+
+.our-services{
+    font-family: calibri;
+    text-align: center;
+    color: rgb(56, 54, 54);
+    padding: 35px 50px 100px 50px;
+}
+
+.our-services h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.our-services p{
+    font-size: 24px;
+}
+
+
+/* Cyber Security */
+
+.cyber-security{
+    font-family: calibri;
+    background-color: rgb(227, 246, 246);
+    color: rgb(60, 59, 59);
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cyber-img img{
+    width: 430px;
+    height: 260px;
+}
+
+.cyber-content h1{
+    font-size: 40px;
+}
+.cyber-content p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.cyber-content ul{
+    font-size: 18px;
+    line-height: 32px;
+}
+.cyber-content a{
+    background-color: rgb(193, 58, 58);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    word-spacing: 5px;
+    padding: 10px 35px;
+    border-radius: 3px;
+}
+.cyber-content a:hover{
+    box-shadow: 3px 3px 5px rgb(92, 91, 91);
+    transform: translateY(-5px);
+}
+
+
+/* Delivery */
+
+.delivery{
+    font-family: calibri;
+    color: rgb(60, 59, 59);
+    background-color: rgb(227, 246, 246);
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.delivery-img img{
+    width: 400px;
+    height: 260px;
+}
+
+.delivery-content h1{
+    font-size: 40px;
+}
+.delivery-content p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.delivery-content ul{
+    font-size: 18px;
+    line-height: 32px;
+}
+.delivery-content a{
+    background-color: rgb(193, 58, 58);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    word-spacing: 5px;
+    padding: 10px 35px;
+    border-radius: 3px;
+}
+.delivery-content a:hover{
+    box-shadow: 3px 3px 5px rgb(92, 91, 91);
+    transform: translateY(-5px);
+}
+
+
+
+/* Service Optimisation */
+
+.service-opt{
+    font-family: calibri;
+    color: rgb(60, 59, 59);
+    background-color: rgb(227, 246, 246);
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-img img{
+    width: 400px;
+    height: 260px;
+}
+
+.service-content h1{
+    font-size: 40px;
+}
+.service-content p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.service-content ul{
+    font-size: 18px;
+    line-height: 32px;
+}
+.service-content a{
+    background-color: rgb(193, 58, 58);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    word-spacing: 5px;
+    padding: 10px 35px;
+    border-radius: 3px;
+}
+.service-content a:hover{
+    box-shadow: 3px 3px 5px rgb(92, 91, 91);
+    transform: translateY(-5px);
+}
+
+
+/* Chatbot Design */
+.chatbot{
+    background-color: rgb(225, 97, 119);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.chatbot:hover{
+    box-shadow: 3px 3px 5px rgb(92, 91, 91);
+    transform: translateY(-5px);
+}
+
+
+/* Contact section  design of home (Get in touch)*/
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px;
+    background-color: rgb(227, 246, 246);
+}
+
+.mail , .phone{
+    font-size: 20px;
+    width: 250px;
+}
+
+.mail i , .phone i{
+    font-size: 30px;
+
+}
+
+.mail p, label , .phone p , label{
+    text-align: right;
+}
+
+.mail label , .phone label{
+    font-family: calibri;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+.mail a , .phone a{
+    color: rgb(61, 58, 58);
+    font-family: calibri;
+    font-size: 22px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.mail a:hover , .phone a:hover{
+    color: red;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: calibri;
+    background-color: rgb(227, 246, 246);
+}
+
+/* Footer Address */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: rgb(74, 62, 62);
+    color: aliceblue;
+    line-height: 30px;
+    height: 240px;
+    padding: 110px 60px;
+    font-family: calibri;
+}
+
+.company h3{
+    font-size: 25px;
+}
+
+.company a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.company a:hover{
+    color: brown;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.li{
+    font-size: 50px;
+    padding: 20px 20px 20px 0px;
+    border-radius: 50%;
+}
+
+.li:hover{
+    color: rgb(196, 61, 61);
+}
+
+.btn{
+    background-color: brown;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+
+    width: 110px;
+    text-align: center;
+    transition: all .2s 0s linear;
+}
+
+.btn:hover{
+    box-shadow: 3px 3px 5px rgb(92, 91, 91);
+    transform: translateY(-5px);
+}
+/* border */
+.border{
+    background-color: black;
+    text-align: left;
+    padding: 25px 50px 25px 40px;
+}
+
+
+.border p{
+    color: white;
+    font-size: 15px;
+    font-family: calibri;
+}
